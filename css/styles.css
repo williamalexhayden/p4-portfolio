@@ -44,11 +44,58 @@ img:hover{
 		border-radius: 2%;
 		color: #bdc3c7;
 	}
-	#gallery li a p{
+	#gallery li p{
 		margin: 0;
 		padding: 5%;
 		color:rgba(0 0 0 .5);
 	}
+	.gallery .item {
+		background: rgba(0,0,0, .4);
+		opacity: 0;
+		transition: opacity .5s;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	figure{
+		transition: all 0.7s ease;
+		position: absolute;
+		border-radius: 5%;
+		max-width: 100%;
+		box-shadow: black .1em .3em .3em 0em rgba(0,0,0,.5);
+
+	}
+	.item p{
+		margin: 0;
+		padding: 5%;
+		color:white;
+	}
+	figure p:hover{
+		transition: all 0.7s ease;
+		color: yellow;
+	}
+
+	.window{
+		position: relative;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 p{
 	margin: 1em 1em;
 	font-color: white;

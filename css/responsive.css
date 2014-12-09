@@ -47,10 +47,27 @@
 	}
 	footer p{
 		text-align: center;
-	}	
+	}
+	figure.item{
+/*		position: relative;
+		max-height: 20%;*/
+	}
+	#gallery li{
+		width: 28.3333%
+	}
+	.gallery .item {
+		margin: 2px;
+		max-width: 100%;
+		opacity: 0;
+		transition: opacity .5s;
+	}
 }
 
 @media screen and (min-width: 387px){
+	figure{
+		display: absolute;
+		display: inline-block;
+	}
 	section{
 		width: 90%;
 	}
@@ -87,6 +104,19 @@
 	}
 	#gallery li{
 		width: 28.3333%
+	}
+
+	.gallery .item {
+		margin: 2px;
+		max-width: 100%;
+		opacity: 0;
+		transition: opacity .5s;
+	}
+	.window{
+		margin: 2px;
+		max-width: 90%;
+		opacity: 0;
+		transition: opacity .5s;
 	}
 }
 @media screen and (min-width: 497px){
@@ -157,12 +187,23 @@
 		margin: 0% 5%;
 	}
 	#gallery{
-		width: 50%;
+		width: 45%;
 		float: right;
 	}
 	#gallery li{
 		width: 28.3333%
 	}
+	.gallery .item {
+		max-width: 48%;
+		opacity: 0;
+		transition: opacity .5s;
+	}
+	.window {
+		max-width: 48%;
+		opacity: 0;
+		transition: opacity .5s;
+	}
+
 	figure{
 		float: left;
 		max-width: 40%;
@@ -190,6 +231,16 @@
 	}
 	#gallery li{
 		width: 20%
+	}
+	.gallery .item {
+		max-width: 35%;
+		opacity: 0;
+		transition: opacity .5s;
+	}
+	.window{
+		max-width: 35%;
+		opacity: 0;
+		transition: opacity .5s;
 	}
 	figure{
 		max-width: 30%;
