@@ -56,14 +56,12 @@ img:hover{
 		overflow: hidden;
 		text-align: center;
 	}
-
 	figure{
 		transition: all 0.7s ease;
 		position: absolute;
 		border-radius: 5%;
 		max-width: 100%;
 		box-shadow: black .1em .3em .3em 0em rgba(0,0,0,.5);
-
 	}
 	.item p{
 		margin: 0;
@@ -74,28 +72,7 @@ img:hover{
 		transition: all 0.7s ease;
 		color: yellow;
 	}
-
-	.window{
-		position: relative;
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*end gallery code*/
 p{
 	margin: 1em 1em;
 	font-color: white;

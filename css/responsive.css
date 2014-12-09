@@ -4,6 +4,7 @@
 		padding: 0 4% 0 4%;
 	}
 }
+
 @media screen and (max-width:386px){
 	div.fl{
 	float:center;
@@ -47,10 +48,6 @@
 	}
 	footer p{
 		text-align: center;
-	}
-	figure.item{
-/*		position: relative;
-		max-height: 20%;*/
 	}
 	#gallery li{
 		width: 28.3333%
@@ -105,7 +102,6 @@
 	#gallery li{
 		width: 28.3333%
 	}
-
 	.gallery .item {
 		margin: 2px;
 		max-width: 100%;
@@ -114,17 +110,19 @@
 	}
 	.window{
 		margin: 2px;
-		max-width: 90%;
+		max-width: 100%;
 		opacity: 0;
 		transition: opacity .5s;
 	}
 }
+
 @media screen and (min-width: 497px){
 	.hist{
 		max-width:65%;
 		display: inline-block;
 	}
 }
+
 @media screen and (min-width: 550px){
 	.hist{
 		max-width: 60%;
@@ -136,7 +134,6 @@
 }
 
 @media screen and (min-width: 1000px){
-	
 	h1{
 		font-size: 3em;
 		text-align: right;
@@ -203,7 +200,6 @@
 		opacity: 0;
 		transition: opacity .5s;
 	}
-
 	figure{
 		float: left;
 		max-width: 40%;
@@ -229,13 +225,13 @@
 		width: 60%;
 		float: right;
 	}
-	#gallery li{
-		width: 20%
-	}
 	.gallery .item {
 		max-width: 35%;
 		opacity: 0;
 		transition: opacity .5s;
+	}
+	#gallery li{
+		width: 20%;
 	}
 	.window{
 		max-width: 35%;

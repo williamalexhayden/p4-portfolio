@@ -323,36 +323,30 @@
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
-
   5.7%,
   20% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
-
   25.7%,
   100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
 }
-
 @keyframes galleryAnimation-6 {
   0% {
     opacity: 0;
   }
-
   5.7%,
   20% {
     opacity: 1;
   }
-
   25.7%,
   100% {
     opacity: 0;
   }
 }
-
 .items-6.autoplay .control-button {
   animation: controlAnimation-6 35s infinite;
 }
@@ -413,44 +407,35 @@
 .items-6 .item:nth-of-type(6) {
   animation-delay: 26s;
 }
-
-
-
 @keyframes controlAnimation-7 {
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
-
   5.7%,
   20% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
-
   25.7%,
   100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
 }
-
 @keyframes galleryAnimation-7 {
   0% {
     opacity: 0;
   }
-
   5.7%,
   20% {
     opacity: 1;
   }
-
   25.7%,
   100% {
     opacity: 0;
   }
 }
-
 .items-7.autoplay .control-button {
   animation: controlAnimation-7 35s infinite;
 }
@@ -520,44 +505,35 @@
 .items-7 .item:nth-of-type(7) {
   animation-delay: 26s;
 }
-
-
-
 @keyframes controlAnimation-8 {
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
-
   5.7%,
   20% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
-
   25.7%,
   100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
 }
-
 @keyframes galleryAnimation-8 {
   0% {
     opacity: 0;
   }
-
   5.7%,
   20% {
     opacity: 1;
   }
-
   25.7%,
   100% {
     opacity: 0;
   }
 }
-
 .items-8.autoplay .control-button {
   animation: controlAnimation-8 35s infinite;
 }
@@ -636,31 +612,26 @@
 .items-8 .item:nth-of-type(8) {
   animation-delay: 26s;
 }
-
 @keyframes controlAnimation-9 {
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
-
   5.7%,
   20% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
-
   25.7%,
   100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
 }
-
 @keyframes galleryAnimation-9 {
   0% {
     opacity: 0;
   }
-
   5.7%,
   20% {
     opacity: 1;
@@ -671,9 +642,6 @@
     opacity: 0;
   }
 }
-
-
-
 .items-9.autoplay .control-button {
   animation: controlAnimation-9 35s infinite;
 }
@@ -761,28 +729,22 @@
 .items-9 .item:nth-of-type(9) {
   animation-delay: 26s;
 }
-
-
-
 @keyframes controlAnimation-10 {
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
-
   5.7%,
   20% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
-
   25.7%,
   100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
 }
-
 @keyframes galleryAnimation-10 {
   0% {
     opacity: 0;
@@ -798,9 +760,6 @@
     opacity: 0;
   }
 }
-
-
-
 .items-10.autoplay .control-button {
   animation: controlAnimation-10 35s infinite;
 }
@@ -897,28 +856,22 @@
 .items-10 .item:nth-of-type(10) {
   animation-delay: 26s;
 }
-
-
-
 @keyframes controlAnimation-11 {
   0% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
-
   5.7%,
   20% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
-
   25.7%,
   100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
 }
-
 @keyframes galleryAnimation-11 {
   0% {
     opacity: 0;
@@ -934,9 +887,6 @@
     opacity: 0;
   }
 }
-
-
-
 .items-11.autoplay .control-button {
   animation: controlAnimation-11 35s infinite;
 }
@@ -1042,10 +992,6 @@
 .items-11 .item:nth-of-type(11) {
   animation-delay: 26s;
 }
-
-
-
-
 @keyframes controlAnimation-12 {
   0% {
     color: #ccc;
@@ -1064,7 +1010,6 @@
     color: rgba(255, 255, 255, 0.4);
   }
 }
-
 @keyframes galleryAnimation-12 {
   0% {
     opacity: 0;
@@ -1080,9 +1025,6 @@
     opacity: 0;
   }
 }
-
-
-
 .items-12.autoplay .control-button {
   animation: controlAnimation-12 35s infinite;
 }
@@ -1196,4 +1138,137 @@
 .items-12 .control-button:nth-of-type(12),
 .items-12 .item:nth-of-type(12) {
   animation-delay: 26s;
+}
+/*fixes spacial gap by making position absolute.//
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+////////////////////////////////////////////////*/
+
+@media screen and (min-width: 1000px){
+  .items-12.autoplay .control-button {
+    animation: controlAnimation-12 35s infinite;
+  }
+  .items-12.autoplay .item {
+    animation: galleryAnimation-12 35s infinite;
+  }
+  .items-12 .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(1),
+  .items-12 .item:nth-of-type(1) {
+    animation-delay: -2s;
+  }
+  .items-12 .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(2),
+  .items-12 .item:nth-of-type(2) {
+    animation-delay: 5s;
+  }
+  .items-12 .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(3),
+  .items-12 .item:nth-of-type(3) {
+    animation-delay: 12s;
+  }
+  .items-12 .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(4),
+  .items-12 .item:nth-of-type(4) {
+    animation-delay: 19s;
+  }
+  .items-12 .control-operator:nth-of-type(5):target ~ .item:nth-of-type(5) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(5),
+  .items-12 .item:nth-of-type(5) {
+    animation-delay: 26s;
+  }
+  .items-12 .control-operator:nth-of-type(6):target ~ .item:nth-of-type(6) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(6),
+  .items-12 .item:nth-of-type(6) {
+    animation-delay: 26s;
+  }
+  .items-12 .control-operator:nth-of-type(7):target ~ .item:nth-of-type(7) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(7),
+  .items-12 .item:nth-of-type(7) {
+    animation-delay: 26s;
+  }
+  .items-12 .control-operator:nth-of-type(8):target ~ .item:nth-of-type(8) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(8),
+  .items-12 .item:nth-of-type(8) {
+    animation-delay: 26s;
+  }
+  .items-12 .control-operator:nth-of-type(9):target ~ .item:nth-of-type(9) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(9),
+  .items-12 .item:nth-of-type(9) {
+    animation-delay: 26s;
+  }
+  .items-12 .control-operator:nth-of-type(10):target ~ .item:nth-of-type(10) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(10),
+  .items-12 .item:nth-of-type(10) {
+    animation-delay: 26s;
+  }
+  .items-12 .control-operator:nth-of-type(11):target ~ .item:nth-of-type(11) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(11),
+  .items-12 .item:nth-of-type(11) {
+    animation-delay: 26s;
+  }
+  .items-12 .control-operator:nth-of-type(12):target ~ .item:nth-of-type(12) {
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  .items-12 .control-button:nth-of-type(12),
+  .items-12 .item:nth-of-type(12) {
+    animation-delay: 26s;
+  }
 }
